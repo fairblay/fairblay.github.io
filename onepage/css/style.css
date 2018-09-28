@@ -37,7 +37,7 @@ header {
 }
 .banner {
 	height: 650px;
-	padding-top: 170px;
+	padding-top: 135px;
 	background: linear-gradient(to top,#ffa8a8,#fcff00);
 }
 .banner_text, .banner_img {
@@ -46,7 +46,6 @@ header {
 }
 .banner_text h1 {
 	font-size: 40px;
-
 }
 .banner_text span {
 	font-family: "RedRingBlack", sans-serif;
@@ -54,7 +53,7 @@ header {
 	font-weight: 800;
 }
 .banner_img {
-	padding-top: 107px;
+	padding-top: 20px;
 }
 .item_present {
 	display: inline-block;
