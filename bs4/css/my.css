@@ -1,0 +1,11 @@
+.row{
+  background-color: red;
+
+}
+.row div {
+  background-color: white;
+}
+.row div:nth-child(Odd)
+{
+  background-color: black;
+}
