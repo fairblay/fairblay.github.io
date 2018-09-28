@@ -1,0 +1,23 @@
+@media (min-width: 300px) and (max-width:767px){
+  .item_present {
+  	width: 100%;
+  }
+  .item_present h3 {
+  	padding-top: 20px;
+  }
+  form {
+  	width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width:900px){
+  .item_present {
+  	width: 50%;
+  }
+  .item_present h3 {
+  	padding-top: 20px;
+  }
+  form {
+  	width: 80%;
+  }
+}

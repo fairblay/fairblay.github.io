@@ -1,0 +1,135 @@
+/* пишем стили */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+}
+
+h1, h2, .copy {
+	font-family: "RedRingLight", sans-serif;
+	font-weight: 100;
+
+}
+button {
+	font-family: "ProximaNovaLight", sans-serif;
+	font-weight: 400;
+}
+
+input, textarea, button {
+	outline: none;
+}
+.clear {
+	clear:both;
+}
+/* end reset */
+
+/*  пишем код тут */
+
+header {
+	height: 100px;
+	padding-top: 15px;
+}
+.logo_img {
+	text-align: center;
+}
+.banner {
+	height: 650px;
+	padding-top: 170px;
+	background: linear-gradient(to top,#ffa8a8,#fcff00);
+}
+.banner_text, .banner_img {
+	margin: 0 auto;
+	text-align: center;
+}
+.banner_text h1 {
+	font-size: 40px;
+
+}
+.banner_text span {
+	font-family: "RedRingBlack", sans-serif;
+	color: white;
+	font-weight: 800;
+}
+.banner_img {
+	padding-top: 107px;
+}
+.item_present {
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+	padding: 0 30px;
+	text-align: center;
+}
+.present {
+	padding: 100px 0;
+}
+.item_present h3 {
+	font-family: "ProximaNovaThin", sans-serif;
+	font-size: 24px;
+	text-transform: full-width;
+	font-weight: 100;
+}
+.item_present p {
+	width: 75%;
+	text-align: justify;
+	margin: 0 auto;
+}
+.item_present i {
+	padding: 20px 0;
+}
+.form{
+	background-color: #f8f6f6;
+	padding: 100px 0;
+	text-align: center;
+}
+.form input, .form textarea {
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 50px;
+	border: 2px solid #ffa8a8;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+}
+form {
+	width: 60%;
+	margin: 0 auto;
+}
+.form h2{
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+.form textarea{
+	resize: none;
+}
+.form button{
+	height: 45px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 10%;
+	background: linear-gradient(to right,#ffa8a8 0%, #fcff00 50%, #ffa8a8 100%);
+	background-size: 200%;
+	transition: 0.38s;
+}
+.form button:hover{
+	background-position:right;
+}
+footer{
+	background-color: #ffa8a8;
+	height: 92px;
+	text-align: center;
+}
+footer p{
+	padding: 35px 0;
+}
+.tic{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 5em;
+	font-family: "RedRingLight",sans-serif;
+	color: rgba(0,0,0,0.5);
+}
