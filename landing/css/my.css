@@ -1,0 +1,24 @@
+header{
+  background: url(../img/header.jpg) no-repeat center center /cover;
+}
+.btn-rounded {
+    border-radius: 21px;
+    border-color: RGB(238,95,63);
+}
+
+.btn-danger {
+  background-color: RGB(238,95,63);
+}
+.hr-head {
+  margin-top: 0px;
+  border-color: RGB(192,192,192);
+}
+.hr-2{
+  width: 6%;
+  border: 2px solid RGB(238,95,63);
+  border-radius: 2px;
+  margin: 25px auto;
+}
+.container-color {
+  background-color: RGB(238,95,63);
+}
