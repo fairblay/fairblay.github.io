@@ -1,7 +1,7 @@
 header{
   background: url(../img/header.jpg) no-repeat center center /cover;
 }
-.btn-rounded {
+.btn-rounded,.btn-rounded-rounded{
     border-radius: 21px;
     border-color: RGB(238,95,63);
 }
@@ -13,7 +13,7 @@ header{
   margin-top: 0px;
   border-color: RGB(192,192,192);
 }
-.hr-2{
+.hr-2, .hr-white{
   width: 6%;
   border: 2px solid RGB(238,95,63);
   border-radius: 2px;
@@ -21,4 +21,17 @@ header{
 }
 .container-color {
   background-color: RGB(238,95,63);
+}
+.hr-white{
+  border-color: #FFF;
+}
+i{
+  color: RGB(238,95,63);
+}
+.btn-rounded-rounded{
+  border-color: #FFF;
+}
+.black-i
+{
+  color: #233;
 }
