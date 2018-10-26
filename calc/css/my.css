@@ -1,0 +1,14 @@
+.calc img{
+  display: none;
+}
+.formcalc{
+  border: 3px solid #ebebeb;
+}
+.formcalc p{
+  text-align: right;
+}
+.formcalc span{
+  color:red;
+  font-weight: 300;
+  font-size: 40px;
+}
